@@ -1,4 +1,4 @@
-package com.djh.example.entity;
+package com.djh.example.entity.metric;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
