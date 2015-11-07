@@ -10,7 +10,7 @@ import java.util.List;
 
 public class DefaultAggregationService implements AggregationService {
 
-    @Value("${metric.name}")
+    @Value("${metric.name:SomeFinalDefault}")
     private String metricName;
 
     @Value("${metric.number}")
